@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\My Games\\CG_CourseProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|c:\\my games\\cg_courseproject\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\collectibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\rotatingobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatingobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|c:\\my games\\cg_courseproject\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA5wEcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:13:09.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RotatingObstacle.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\RotatingObstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotatingObstacle.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\RotatingObstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotatingObstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:44:44.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:44:19.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Collectibles.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\Collectibles.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\Collectibles.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectibles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:43:46.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwEQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:42:25.173Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
