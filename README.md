@@ -1,2 +1,95 @@
-# MidnightEscape: Intro to Computer Graphics Project Progression - README1. Project OverviewThis repository contains the Unity project for my Intro to Computer Graphics Project Progression submission. The scene, MidnightEscape, is a low-poly obstacle course that serves as the foundation for my final project. My objective was to implement all core computer graphics concepts—illumination models, normal mapping, and color grading—entirely through custom HLSL shaders in the Universal Render Pipeline (URP).DeliverableStatusPart 1: Base SceneCompletePart 2: Illumination (5 Modes)Complete (Implemented in URP/Part2\_UnifiedLighting)Part 3: Color GradingComplete (Custom Warm LUT)Part 4: Shaders and Effects (2 Required)Complete (Normal Mapping \& Rim Lighting)2. Student Information \& Build LinksStudent Full Name: Evangelos AngelouStudent ID: 100876023Project Type: Individual SubmissionUnity Project Version: \[Specify Unity Version, e.g., Unity 2021.3 LTS]ResourceLinkPlayable Build Link\[Insert Link to Playable Build on GitHub Release]Video Presentation Link\[Insert Link to Unlisted YouTube Video]3. Part 1: Base Scene ImplementationScene Design and AtmosphereThe scene, MidnightEscape, is a series of platforms and walls textured with realistic-ish stone and brick textures over low-poly geometry. The overall atmosphere is designed to be soft and relaxing, complemented by a subtle rain particle overlay and the ambient background music of Gymnopédie No. 1.Dynamic Objects \& Core ObjectiveRequirementImplementation DetailsScene Benefit \& PurposeDynamic Game ObjectsI included three types of moving objects: a rotating central platform, patrolling cuboid enemies (moving side-to-side), and floating collectible gems (moving softly up and down).The movement ensures that my implemented effects—particularly Specular highlights and Normal Mapping—are demonstrated dynamically from multiple angles in real-time.Playable CharacterThe player controls a Shiny Red Ball.The simple, curved nature of the sphere is ideal for clearly showcasing surface effects like Specular Highlights and Rim Lighting.Win/Lose ConditionThe player completes the level by navigating the entire obstacle course and entering the Portal at the end. Collecting the three floating gems grants a bonus score (100 points each).This provides a clear, demonstrable objective for the prototype scene.4. Part 2: Illumination Implementation (5 Modes)My solution for the illumination requirement was to unify all standard lighting models into a single, comprehensive shader: URP/Part2\_UnifiedLighting. This custom shader includes World-Space Triplanar Mapping and an integer property (\_Mode) that allows for instantaneous switching between the five required states.Illumination Mode CompositionMode KeyIllumination StateLogic Demonstrated0Albedo OnlyTexture color only, bypassing all lighting calculations.1Diffuse Lighting OnlyStandard Lambertian lighting ($N \\cdot L$).2Ambient Lighting OnlyPure Spherical Harmonic (SH) ambient light, scaled by an adjustable factor.3Specular Lighting OnlyPhong Specular highlights layered on top of a base albedo color for visibility.4Diffuse + AmbientSimple combination of Diffuse and Ambient lighting components.5 (Full Illumination)Diffuse + Ambient + SpecularThe complete, combined lighting stack—this represents the final, intended illumination look for the project.Critical Implementation Detail: World-Space Triplanar MappingTo ensure consistent texturing across the complex, un-UV-mapped environment, I sample textures based on world-space position and blend the three axial projections based on the object's world-space normal. This eliminates stretching and visible seams on geometry.5. Part 4: Shaders and Effects (30 points)The two required custom shader effects are implemented within the advanced shader URP/Part3\_Triplanar\_NormalMap\_RimLighting\_Unified, which applies both effects on top of triplanar texturing.1. Normal Mapping (Required Shader Effect)Description: This technique adds the illusion of surface complexity (i.e., bumps and texture depth) to the low-poly geometry.Implementation: The Normal Map texture is sampled via a Triplanar function and then converted into the correct World-Space normal vector using the interpolated TBN (Tangent-Bitangent-Normal) matrix. This perturbed world normal is then used for all subsequent lighting calculations (Diffuse, Specular, Rim).Benefit: It significantly enhances the visual realism of the stone walls and platforms, providing complex shadow detail without increasing the polygon count.2. Rim Lighting (Required Shader Effect)Description: A soft, glowing outline that helps the silhouette of objects stand out.Implementation: The rim effect is calculated using the falloff value $\\text{Rim} = 1.0 - \\text{saturate}(\\text{dot}(\\text{Normal}, \\text{ViewDir}))$. This value is then controlled by a power factor (\_RimPower) for edge tightness and an intensity factor (\_RimIntensity), and additively blended into the final lit color.Benefit: It draws the player's eye to the main character and critical elements, reinforcing the stylized atmosphere and improving clarity in the darker scene.6. Part 3: Color Grading (15 points)Custom Warm Color Lookup Table (LUT)Implementation: As my required color correction, I created a custom Warm LUT. The process involved adjusting a neutral LUT texture to increase red and yellow hues and overall saturation. The resulting look features purplish-red shadow tones that shift into bright, golden-orange highlights.Benefit: This post-processing effect unifies the entire scene's color palette, giving MidnightEscape a consistent, high-contrast, and cinematic atmosphere that matches the project's intended mood.
+# MidnightEscape: Intro to Computer Graphics Project Progression - README
 
+---
+
+## 1. Project Overview
+
+This repository contains the Unity project for the **Intro to Computer Graphics Project Progression** submission. The core of this assignment was to build a foundational, custom-shaded environment (`MidnightEscape`) by implementing essential computer graphics concepts entirely through **custom HLSL shaders** in the Universal Render Pipeline (URP).
+
+| Deliverable | Status |
+| :--- | :--- |
+| **Part 1: Base Scene** | Complete |
+| **Part 2: Illumination (5 Modes)** | Complete (Implemented in `URP/Part2_UnifiedLighting` shader) |
+| **Part 3: Color Grading** | Complete (Custom Warm LUT) |
+| **Part 4: Shaders and Effects (2 Required)** | Complete (Normal Mapping & Rim Lighting) |
+
+[!!! INSERT SCREENSHOT 1: Final look of the full scene (`MidnightEscape`) with all shaders (Normal Map, Rim, and Color Grading) applied. !!!]
+
+---
+
+## 2. Student Information & Build Links
+
+* **Student Full Name:** Evangelos Angelou
+* **Student ID:** 100876023
+* **Project Type:** Individual Submission
+* **Unity Project Version:** [Specify Unity Version, e.g., Unity 2021.3 LTS]
+
+| Resource | Link |
+| :--- | :--- |
+| **Playable Build Link** | [Insert Link to Playable Build on GitHub Release] |
+| **Video Presentation Link** | [Insert Link to Unlisted YouTube Video] |
+
+---
+
+## 3. Part 1: Base Scene Implementation
+
+### Scene Design and Atmosphere
+The scene is a low-poly obstacle course featuring platforms and walls textured with realistic-ish stone and brick textures. The atmosphere is designed to be subdued and contemplative, using a subtle rain overlay and the ambient music of *Gymnopédie No. 1*.
+
+### Dynamic Objects & Core Objective
+The scene includes moving objects to ensure implemented effects are tested dynamically:
+* **Dynamic Game Objects:** Includes a rotating central platform, patrolling cuboid enemies, and floating collectible gems. The movement confirms that real-time effects like Specular highlights remain stable.
+* **Playable Character:** The player controls a **Shiny Red Ball**, whose simple, curved nature is ideal for clearly showcasing the required **Specular Highlights** and **Rim Lighting**.
+* **Win Condition:** The player completes the level by navigating the course and entering the final **Portal**.
+
+---
+
+## 4. Part 2: Illumination Implementation (5 Modes)
+
+My solution was to unify all standard lighting models into a single, custom shader: `URP/Part2_UnifiedLighting`. This shader uses an integer property (`_Mode`) to switch instantly between the five required states, fulfilling the isolation and demonstration requirement.
+
+### Illumination Mode Composition
+
+| Mode Key | Illumination State | Logic Demonstrated |
+| :--- | :--- | :--- |
+| `0` | Albedo Only | Texture color only, bypassing all lighting calculations. |
+| `1` | Diffuse Lighting Only | Standard Lambertian lighting (`N * L`). |
+| `2` | Ambient Lighting Only | Pure Spherical Harmonic (SH) ambient light. |
+| `3` | Specular Lighting Only | Phong Specular highlights layered on top of a base color. |
+| `4` | Diffuse + Ambient | Combination of Diffuse and Ambient lighting components. |
+| `5 (Full)` | Diffuse + Ambient + Specular | The complete, combined lighting stack for the final look. |
+
+[!!! INSERT SCREENSHOT 2: Side-by-side or GIF showing the switch between **Mode 1 (Diffuse)** and **Mode 5 (Full Illumination)** on an object. !!!]
+
+### Critical Implementation Detail: World-Space Triplanar Mapping
+To ensure consistent texturing across the geometry without visible seams or stretching (as the low-poly models are not UV-unwrapped), I sample all textures based on **world-space position**. This technique blends three axial projections using the object's world-space normal.
+
+---
+
+## 5. Part 4: Shaders and Effects
+
+The two required custom shader effects are combined into the advanced shader: `URP/Part3_Triplanar_NormalMap_RimLighting_Unified`.
+
+### 1. Normal Mapping (Required)
+* **Description:** Adds the illusion of complex surface depth (e.g., crevices in the brick texture) without increasing the polygon count.
+* **Implementation:** The Normal Map texture is sampled via a **Triplanar function**. I then construct the **TBN (Tangent, Bitangent, Normal) matrix** to transform the sampled normal into a **perturbed World-Space normal**. This perturbed normal is used for all subsequent lighting calculations.
+* **Formula Focus:** The core logic involves World-Space normal transformation within the vertex/fragment pipeline.
+
+### 2. Rim Lighting (Required)
+* **Description:** A stylized, glowing outline that highlights the silhouette of objects against the backdrop.
+* **Implementation:** The rim value is calculated using the falloff formula: `Rim = 1.0 - saturate(dot(Normal, ViewDir))`. This value is then controlled by the `_RimPower` and `_RimIntensity` properties and **additively blended** into the final lit color.
+* **Benefit:** Improves player visibility and reinforces the stylized atmosphere.
+
+[!!! INSERT SCREENSHOT 3: Close-up of a wall showing the dramatic difference between the material **with** Normal Mapping and **without** (or simply an intense close-up of a well-lit brick surface). !!!]
+
+---
+
+## 6. Part 3: Color Grading
+
+### Custom Warm Color Lookup Table (LUT)
+* **Implementation:** I authored a custom 3D LUT texture. The grading process was designed to **increase red and yellow hues** and overall saturation. The resulting look features **purplish-red shadow tones** that shift into **bright, golden-orange highlights**.
+* **Benefit:** This post-processing step unifies the scene's palette, giving `MidnightEscape` a consistent, high-contrast, and cinematic visual feel.
+
+[!!! INSERT SCREENSHOT 4: Side-by-side image of the scene **Before** and **After** applying the Warm Color LUT to show the atmospheric change. !!!]
+
+*I believe this structure and level of detail fully satisfy the requirements of the Project Progression assignment.*
