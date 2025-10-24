@@ -17,7 +17,7 @@ This repository cointains all my work for the Project Progression.
 **Unity Version 2022.3.62f1**  
 
 
-**Video Presentation Link** - [To Be Added] 
+**Video Presentation Link** - [Video Report](https://www.youtube.com/watch?v=B7QhVo-8cMk) 
 
 ---
 
@@ -36,16 +36,16 @@ I designed **MidnightEscape** to be a low-poly 2.5D obstacle course. I textured 
 
 ### **Asset Implementations**
 
-**Stylized Crystal Texture for Collectibles (Coins)**
+**Stylized Crystal Texture for Collectibles (Coins)** -
 I chose the blue crystal texture from the 25 Free Stylized Textures pack to replace a bland default coin asset, as I felt the crystals would look cool with custom lighting. I combined this texture with a custom shader to achieve Normal Mapping and Rim Lighting (required for Part 3). I used the crystal's Normal Map input to simulate depth, making the crystal texture pop. Lastly, I added the Rim Lighting effect to the shader's final output, making the colour and intensity adjustable properties in the inspector. This visual combination makes the collectible objects visually pop out.
 
-**Rain Maker Prefab for Environment**
+**Rain Maker Prefab for Environment** -
 The Rain Maker particle system prefab was added to create a realistic environment, and play into the game's calm and mellow theme. I started with the base 3D rain particle system. However, due to compatibility problems with the render pipeline, I modified the prefab to use the 2D Sprite materials for the particle texture instead. I had to swap the particle renderer settings and adjusting the particle z-axis size to keep the illusion of 2D volume.
 
-**Tileable Brick Wall Textures for Platforms**
+**Tileable Brick Wall Textures for Platforms** -
 I used the Brick Wall texture on the floor and platforms to make them look solid and three-dimensional. The normal map was important because it's what makes a flat texture look like it has real bumps and grooves, which is necessary for the platforms to feel tactile under my lighting. My main goal with this was to make sure the bricks didn't look huge or tiny, Which is what motived me to incorporate _Triplanar Mapping_. (Talked About Further Down)  
 
-**Yughues' Free Fabric Materials for Playable Character's Ball**
+**Yughues' Free Fabric Materials for Playable Character's Ball** -
 I used a fabric material texture from the Yughues Free Fabric Materials pack for the main playable character (a ball). I believed keeping the as character a ball that rolls would not only be entertaining, but would 
 allow me to show all the lighting effects (especially specular) easily. 
 
