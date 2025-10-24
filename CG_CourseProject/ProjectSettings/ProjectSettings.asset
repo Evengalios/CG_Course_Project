@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: EvangelosAngelou
   productName: CG_CourseProject
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -142,7 +142,24 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 4800000, guid: e4e71ba6ec8581e4ab2b8bfda546e198, type: 3}
+  - {fileID: 4800000, guid: 18683abd983f3314096390b83a593690, type: 3}
+  - {fileID: 4800000, guid: e822ed6729dcca740a3bbc594f2e786d, type: 3}
+  - {fileID: 4800000, guid: 0899463a4735ae74caa7e4fed4ddcc0e, type: 3}
+  - {fileID: 4800000, guid: cbada4a49d67e3d4c9acc5f857a50a78, type: 3}
+  - {fileID: 4800000, guid: cbf896be3d33aee428f20cfbfa11b8e3, type: 3}
+  - {fileID: 4800000, guid: 1acdcd2b3d9cf9a45aeea47311b02677, type: 3}
+  - {fileID: 4800000, guid: bf2fa3e897aedbf4ea3ad78a86d431fb, type: 3}
+  - {fileID: 2100000, guid: 215a852913f42cd40bcd8ce362f52cf7, type: 2}
+  - {fileID: 2100000, guid: 7ac6bcc9212dd674d89ef454471a06ec, type: 2}
+  - {fileID: 2100000, guid: 50832fd13bb4f85409f32ed918d49b74, type: 2}
+  - {fileID: 2100000, guid: fa1d08ead633e794e8128ea2ef20e526, type: 2}
+  - {fileID: 2100000, guid: 569312b0983a90c41b026296a31e9311, type: 2}
+  - {fileID: 2100000, guid: a717babaaafea364da498c743e4d7501, type: 2}
+  - {fileID: 2100000, guid: 758371dcc367f6643b587235e6ce03e3, type: 2}
+  - {fileID: 2100000, guid: c726adf8a0727dd4a8f79bae6bfad614, type: 2}
+  - {fileID: 2100000, guid: 41ab0fe74d6eeae449f4cf851bfc3aaf, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -251,7 +268,7 @@ PlayerSettings:
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
-  shaderPrecisionModel: 0
+  shaderPrecisionModel: 1
   clonedFromGUID: 10ad67313f4034357812315f3c407484
   templatePackageId: com.unity.template.2d@7.0.4
   templateDefaultScene: Assets/Scenes/SampleScene.unity
@@ -325,6 +342,15 @@ PlayerSettings:
     m_Automatic: 1
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
+    m_Automatic: 1
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 02000000
+    m_Automatic: 1
+  - m_BuildTarget: MacStandaloneSupport
+    m_APIs: 10000000
+    m_Automatic: 1
+  - m_BuildTarget: LinuxStandaloneSupport
+    m_APIs: 1100000015000000
     m_Automatic: 1
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16

@@ -6,66 +6,52 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
 
-    private Rigidbody2D rb;
+    [Header("Ground Check")]
+    public Transform groundCheck;
+    public float groundCheckRadius = 0.3f;
+    public LayerMask groundLayer;
+
+    private Rigidbody rb;
     private bool isGrounded;
     private float moveInput;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
-        // Get input
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        // Jump - only if grounded
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, groundLayer);
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector3(rb.velocity.x, jumpForce, 0);
         }
     }
 
     void FixedUpdate()
     {
-        // Move
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        rb.velocity = new Vector3(moveInput * moveSpeed, rb.velocity.y, 0);
     }
 
-    void OnCollisionStay2D(Collision2D collision)
+    void OnTriggerEnter(Collider other)
     {
-        // If touching ground, we're grounded
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        // If leaving ground, we're airborne
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = false;
-        }
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Goal"))
+        if (other.CompareTag("Goal"))
         {
             GameManager.Instance.Win();
         }
 
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Hazard"))
+        if (other.CompareTag("Enemy") || other.CompareTag("Hazard"))
         {
             GameManager.Instance.Lose();
         }
 
-        if (collision.CompareTag("Collectible"))
+        if (other.CompareTag("Collectible"))
         {
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
             GameManager.Instance.AddScore(100);
         }
     }

@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     public GameObject losePanel;
     public TextMeshProUGUI loseScoreText;    
     public Button losePlayAgainButton;
+    public Camera mainCamera;
+    public Camera secondaryCamera;
 
     private int score = 0;
     private bool gameEnded = false;
@@ -39,6 +41,8 @@ public class GameManager : MonoBehaviour
 
         winPlayAgainButton.onClick.AddListener(RestartGame);
         losePlayAgainButton.onClick.AddListener(RestartGame);
+        mainCamera.enabled = true;
+        secondaryCamera.enabled = false;
     }
 
     public void AddScore(int points)

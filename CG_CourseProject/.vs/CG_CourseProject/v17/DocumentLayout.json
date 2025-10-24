@@ -3,24 +3,76 @@
   "WorkspaceRootPath": "C:\\My Games\\CG_CourseProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|c:\\my games\\cg_courseproject\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\shaders\\rimlighting_normalmap.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\rimlighting_normalmap.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\shaders\\part3_normalmap_rimlighting_triplanar_unified.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\part3_normalmap_rimlighting_triplanar_unified.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\shaders\\part2lighting.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\part2lighting.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\shaders\\part2_unifiedshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\part2_unifiedshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\shaders\\diffuselighting.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\diffuselighting.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\shaders\\diffuseambient_triplanar_rotated.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\diffuseambient_triplanar_rotated.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\shaders\\diffuseambient_objectlocal.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\diffuseambient_objectlocal.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|c:\\my games\\cg_courseproject\\assets\\shaders\\colorgradinglut.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\colorgradinglut.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\NormalMap_RimLighting_Triplanar_Unified.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shaders\\NormalMap_RimLighting_Triplanar_Unified.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\collectibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\lutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\lightingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lightingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\rotatingobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatingobstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|c:\\my games\\cg_courseproject\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|C:\\My Games\\CG_CourseProject\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A57EB69-EE81-106E-D02D-A1C8268EA00B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseAmbient.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shaders\\DiffuseAmbient.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\LUTRenderFeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LUTRenderFeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +82,211 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA5wEcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T03:13:09.701Z",
+              "Title": "Part2_UnifiedShader.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\Part2_UnifiedShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Part2_UnifiedShader.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\Part2_UnifiedShader.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Part2_UnifiedShader.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T21:39:32.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Part2Lighting.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\Part2Lighting.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Part2Lighting.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\Part2Lighting.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Part2Lighting.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T22:29:45.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Part3_NormalMap_RimLighting_Triplanar_Unified.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\Part3_NormalMap_RimLighting_Triplanar_Unified.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\Part3_NormalMap_RimLighting_Triplanar_Unified.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\Part3_NormalMap_RimLighting_Triplanar_Unified.shader",
+              "RelativeToolTip": "Assets\\Shaders\\Part3_NormalMap_RimLighting_Triplanar_Unified.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T22:19:04.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RimLighting_NormalMap.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\RimLighting_NormalMap.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\RimLighting_NormalMap.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\RimLighting_NormalMap.shader",
+              "RelativeToolTip": "Assets\\Shaders\\RimLighting_NormalMap.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T21:00:38.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiffuseLighting.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseLighting.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\DiffuseLighting.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseLighting.shader",
+              "RelativeToolTip": "Assets\\Shaders\\DiffuseLighting.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-22T23:12:05.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiffuseAmbient_Triplanar_Rotated.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseAmbient_Triplanar_Rotated.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\DiffuseAmbient_Triplanar_Rotated.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseAmbient_Triplanar_Rotated.shader",
+              "RelativeToolTip": "Assets\\Shaders\\DiffuseAmbient_Triplanar_Rotated.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T21:38:27.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DiffuseAmbient_ObjectLocal.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseAmbient_ObjectLocal.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\DiffuseAmbient_ObjectLocal.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseAmbient_ObjectLocal.shader",
+              "RelativeToolTip": "Assets\\Shaders\\DiffuseAmbient_ObjectLocal.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T01:01:09.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ColorGradingLUT.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\ColorGradingLUT.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\ColorGradingLUT.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\ColorGradingLUT.shader",
+              "RelativeToolTip": "Assets\\Shaders\\ColorGradingLUT.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T03:10:34.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NormalMap_RimLighting_Triplanar_Unified.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\NormalMap_RimLighting_Triplanar_Unified.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\NormalMap_RimLighting_Triplanar_Unified.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\NormalMap_RimLighting_Triplanar_Unified.shader",
+              "RelativeToolTip": "Assets\\Shaders\\NormalMap_RimLighting_Triplanar_Unified.shader",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAALoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T21:41:51.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Collectibles.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\Collectibles.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\Collectibles.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectibles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:43:46.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:13:09.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:42:25.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LUTController.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\LUTController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LUTController.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\LUTController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LUTController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T04:12:11.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LUTRenderFeature.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\LUTRenderFeature.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LUTRenderFeature.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\LUTRenderFeature.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LUTRenderFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T04:15:44.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LightingManager.cs",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\LightingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightingManager.cs",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\LightingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T01:25:44.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DiffuseAmbient.shader",
+              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseAmbient.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\DiffuseAmbient.shader",
+              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Shaders\\DiffuseAmbient.shader",
+              "RelativeToolTip": "Assets\\Shaders\\DiffuseAmbient.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-10-23T00:50:45.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "RotatingObstacle.cs",
               "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\RotatingObstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RotatingObstacle.cs",
@@ -55,12 +294,11 @@
               "RelativeToolTip": "Assets\\Scripts\\RotatingObstacle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T02:44:44.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T02:44:44.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "EnemyMovement.cs",
               "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\EnemyMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
@@ -69,32 +307,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T02:44:19.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Collectibles.cs",
-              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\Collectibles.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles.cs",
-              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\Collectibles.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Collectibles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T02:43:46.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\My Games\\CG_CourseProject\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwEQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T02:42:25.173Z",
-              "EditorCaption": ""
             }
           ]
         }
