@@ -4,7 +4,7 @@
 **100876023**  
 **Unity Version 2022.3.62f1**
 
-**Final Project Video Presentation**: [YouTube Link Here - REPLACE WITH YOUR LINK]  
+**Final Project Video Presentation**: [YouTube Link]  
 **Project Progression README**: [README_ProjectProgression.md](README_ProjectProgression.md)
 
 ## Part 1: Improvements
