@@ -88,7 +88,7 @@ Shader "URP/Part3_Triplanar_NormalMap_RimLighting_Unified"
                 return o;
             }
 
-            half3 TriplanarObjectSample(TEXTURE2D(tex), SAMPLER(samplerTex), float3 localPos, float3 normal)
+            half3 TriplanarObject(TEXTURE2D(tex), SAMPLER(samplerTex), float3 localPos, float3 normal)
             {
                 float3 blend = abs(normal);
                 blend = pow(blend, 4.0);
@@ -105,9 +105,9 @@ Shader "URP/Part3_Triplanar_NormalMap_RimLighting_Unified"
                 return sampleX * blend.x + sampleY * blend.y + sampleZ * blend.z;
             }
             
-            half3 TriplanarNormalSample(float3 localPos, float3 normal)
+            half3 TriplanarNormal(float3 localPos, float3 normal)
             {
-                half3 normalSample = TriplanarObjectSample(_NormalMap, sampler_NormalMap, localPos, normal);
+                half3 normalSample = TriplanarObject(_NormalMap, sampler_NormalMap, localPos, normal);
                 
                 normalSample = normalSample * 2.0 - 1.0;
                 normalSample.xy *= _NormalStrength;
@@ -121,11 +121,11 @@ Shader "URP/Part3_Triplanar_NormalMap_RimLighting_Unified"
                 float3 tangentWS = normalize(i.tangentWS);
                 float3 bitangentWS = normalize(i.bitangentWS);
                 
-                half3 normalTangent = TriplanarNormalSample(i.localPos, normalWS);
+                half3 normalTangent = TriplanarNormal(i.localPos, normalWS);
                 float3x3 TBN = float3x3(tangentWS, bitangentWS, normalWS);
                 float3 normal = normalize(mul(normalTangent, TBN));
                 
-                half3 albedo = TriplanarObjectSample(_MainTex, sampler_MainTex, i.localPos, normalWS) * _Color.rgb;
+                half3 albedo = TriplanarObject(_MainTex, sampler_MainTex, i.localPos, normalWS) * _Color.rgb;
 
                 Light mainLight = GetMainLight();
                 half3 lightDir = normalize(mainLight.direction);
@@ -167,12 +167,9 @@ Shader "URP/Part3_Triplanar_NormalMap_RimLighting_Unified"
                 }
                 else if (_Mode == 5)
                 {
-                    // MODE 5: Original Look (Wrap Diffuse + Ambient Factor + Specular)
                     finalColor = diffuse_original + ambient_original + specular;
                 }
-                // Mode 0: finalColor = albedo (texture only)
                 
-                // Add Rim Lighting to all modes except Mode 0 (Albedo Only)
                 if (_Mode > 0)
                 {
                     finalColor += rimLight;

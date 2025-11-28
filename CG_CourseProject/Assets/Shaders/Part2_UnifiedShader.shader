@@ -74,7 +74,7 @@ Shader "URP/Part2_UnifiedLighting"
                 return float3(c*pos.x + s*pos.z, pos.y, -s*pos.x + c*pos.z);
             }
 
-            half3 TriplanarSample(TEXTURE2D(tex), SAMPLER(samplerTex), float3 worldPos, float3 normal, float scale)
+            half3 Triplanar(TEXTURE2D(tex), SAMPLER(samplerTex), float3 worldPos, float3 normal, float scale)
             {
                 float3 pos = RotateX(worldPos, radians(10));
                 pos = RotateY(pos, radians(10));
@@ -93,9 +93,9 @@ Shader "URP/Part2_UnifiedLighting"
                 return sampleX * blend.x + sampleY * blend.y + sampleZ * blend.z;
             }
 
-            half3 TriplanarBumpSample(float3 worldPos, float3 normal, float scale)
+            half3 TriplanarBump(float3 worldPos, float3 normal, float scale)
             {
-                half3 bump = TriplanarSample(_BumpMap, sampler_BumpMap, worldPos, normal, scale);
+                half3 bump = Triplanar(_BumpMap, sampler_BumpMap, worldPos, normal, scale);
                 bump = normalize((bump * 2 - 1) * _BumpStrength + normal);
                 return bump;
             }
@@ -103,8 +103,8 @@ Shader "URP/Part2_UnifiedLighting"
             half4 frag(Varyings i) : SV_Target
             {
                 half3 normal = normalize(i.normalWS);
-                normal = TriplanarBumpSample(i.worldPos, normal, _TextureScale);
-                half3 tex = TriplanarSample(_MainTex, sampler_MainTex, i.worldPos, normal, _TextureScale) * _Color.rgb;
+                normal = TriplanarBump(i.worldPos, normal, _TextureScale);
+                half3 tex = Triplanar(_MainTex, sampler_MainTex, i.worldPos, normal, _TextureScale) * _Color.rgb;
 
                 Light mainLight = GetMainLight();
                 half3 lightDir = normalize(mainLight.direction);

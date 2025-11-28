@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -41,15 +42,17 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("Goal"))
         {
+            SceneManager.LoadScene("Room2");
+        }
+        else if (other.CompareTag("End"))
+        {
             GameManager.Instance.Win();
         }
-
-        if (other.CompareTag("Enemy") || other.CompareTag("Hazard"))
+        else if (other.CompareTag("Enemy") || other.CompareTag("Hazard"))
         {
             GameManager.Instance.Lose();
         }
-
-        if (other.CompareTag("Collectible"))
+        else if (other.CompareTag("Collectible"))
         {
             Destroy(other.gameObject);
             GameManager.Instance.AddScore(100);

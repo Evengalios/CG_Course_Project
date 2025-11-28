@@ -1,20 +1,21 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro; 
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
     [Header("UI")]
-    public TextMeshProUGUI scoreTextInGame;  
+    public TextMeshProUGUI scoreTextInGame;
     public GameObject winPanel;
-    public TextMeshProUGUI winScoreText;     
+    public TextMeshProUGUI winScoreText;
     public Button winPlayAgainButton;
     public GameObject losePanel;
-    public TextMeshProUGUI loseScoreText;    
+    public TextMeshProUGUI loseScoreText;
     public Button losePlayAgainButton;
+
     public Camera mainCamera;
     public Camera secondaryCamera;
 
@@ -39,8 +40,9 @@ public class GameManager : MonoBehaviour
         losePanel.SetActive(false);
         UpdateScoreUI();
 
-        winPlayAgainButton.onClick.AddListener(RestartGame);
+        winPlayAgainButton.onClick.AddListener(RestartToFirstLevel);
         losePlayAgainButton.onClick.AddListener(RestartGame);
+
         mainCamera.enabled = true;
         secondaryCamera.enabled = false;
     }
@@ -51,10 +53,16 @@ public class GameManager : MonoBehaviour
         UpdateScoreUI();
     }
 
+    public void LoadNextRoom()
+    {
+        if (gameEnded) return;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Room2");
+    }
+
     public void Win()
     {
         if (gameEnded) return;
-
         gameEnded = true;
         winPanel.SetActive(true);
         winScoreText.text = "Score: " + score;
@@ -64,7 +72,6 @@ public class GameManager : MonoBehaviour
     public void Lose()
     {
         if (gameEnded) return;
-
         gameEnded = true;
         losePanel.SetActive(true);
         loseScoreText.text = "Score: " + score;
@@ -80,5 +87,11 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void RestartToFirstLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MidnightEscape");
     }
 }
