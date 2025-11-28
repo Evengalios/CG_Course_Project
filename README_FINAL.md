@@ -4,7 +4,7 @@
 **100876023**  
 **Unity Version 2022.3.62f1**
 
-**Final Project Video Presentation**: [YouTube Link]  
+**Final Project Video Presentation**: [CG Final Project - Evangelos Angelou 2025](https://youtu.be/RkShOu5-WKA)  
 **Project Progression README**: [README_ProjectProgression.md](README_ProjectProgression.md)
 
 ## Part 1: Improvements
