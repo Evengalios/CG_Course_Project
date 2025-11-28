@@ -70,6 +70,14 @@ Now everything toggles consistently. Whether it's the lava effect or the cell-sh
 
 For this prokect, I'm using triplanar mapping for pretty much everything instead of regular UV mapping. The main reason is that triplanar mapping  works better for objects that move or rotate as the textures stay locked to the objects instead of sliding around.
 
+### Textures
+
+<img width="891" height="890" alt="image" src="https://github.com/user-attachments/assets/eda834bd-6f50-4ade-97c0-aff0adf3974d" />
+<img width="887" height="887" alt="image" src="https://github.com/user-attachments/assets/bc3133cf-d0b8-4494-8b5f-83192d0af76f" />
+<img width="888" height="885" alt="image" src="https://github.com/user-attachments/assets/ab8b0c6d-8526-4db5-a127-0395c35d3caa" />
+<img width="887" height="888" alt="image" src="https://github.com/user-attachments/assets/d8aaf02e-334d-479c-b4a1-b3f5c3d9a6a4" />
+<img width="608" height="612" alt="image" src="https://github.com/user-attachments/assets/8beba218-0474-4cd2-b653-cf8bc778fc77" />
+
 ### Triplanar Mapping Implementation
 
 The way triplanar mapping works is it projects the texture from three directions (X, Y, and Z axes) and blends them based on which way the surface is facing.
